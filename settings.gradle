@@ -1,0 +1,5 @@
+rootProject.name = 'mq-learn'
+include 'activeMQ-learn'
+include 'rabbitMQ-learn'
+include 'rocketMQ-learn'
+include 'kafka-learn'

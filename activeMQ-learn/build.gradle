@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+
+dependencies {
+
+//    compile('mysql:mysql-connector-java')
+//    compile('org.springframework.boot:spring-boot-starter-web')
+//    compile("org.springframework.boot:spring-boot-starter-undertow:$springBootVersion")
+    compile("org.apache.activemq:activemq-all:5.15.9")
+
+
+}
+
+configurations {
+    compile.exclude module: "spring-boot-starter-tomcat"
+}
